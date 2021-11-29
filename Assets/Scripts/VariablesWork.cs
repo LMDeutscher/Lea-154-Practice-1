@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class VariablesWork : MonoBehaviour
 {
-	int number = 5
+	int number = 5;
 	float position = 5.1f;
 	char letter = 'a';
 		public string name;
