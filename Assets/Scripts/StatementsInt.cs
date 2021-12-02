@@ -36,6 +36,10 @@ public class StatementsInt : MonoBehaviour
         {
             print("passed great");
         }
+        else if (score > 100)
+        {
+                print("cheated on the exam");
+        }
         else
         {
             print("try again");
