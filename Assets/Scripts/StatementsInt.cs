@@ -38,7 +38,7 @@ public class StatementsInt : MonoBehaviour
         }
         else if (score > 100)
         {
-                print("cheated on the exam");
+            print("cheated on the exam");
         }
         else
         {

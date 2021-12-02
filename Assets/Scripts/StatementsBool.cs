@@ -15,14 +15,14 @@ public class StatementsBool : MonoBehaviour
     void Update()
     {
         // checking for true
-        // if (student) // - if (student == true)
-        // {
-        //    print("passed");
-        // }
-        // else
-        // {
-        //    print("try again");
-        // }
+         //if (student) // - if (student == true)
+         //{
+         //   print("passed");
+         //}
+         //else
+         //{
+         //   print("try again");
+         //}
 
         // checking for false
         if (!student) // - if (student == true)

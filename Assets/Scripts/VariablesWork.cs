@@ -7,7 +7,7 @@ public class VariablesWork : MonoBehaviour
     int number = 5;
 	float position = 5.1f;
 	char letter = 'a';
-	public string name;
+	public string Name;
 	
     // Start is called before the first frame update
     void Start()
@@ -20,6 +20,6 @@ public class VariablesWork : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(name);
+        print("You're" + " " + Name);
     }
 }
