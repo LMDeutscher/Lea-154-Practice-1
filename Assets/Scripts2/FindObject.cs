@@ -11,18 +11,24 @@ public class FindObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //GameObject.Find("Cylinder").GetComponent<Rigidbody>().useGravity = true;
+        //Find Cube and change mass, gravity
 
-        rb = GameObject.Find("Cylinder").GetComponent<Rigidbody>();
+        //GameObject.Find("Cube").GetComponent<Rigidbody>().useGravity = true;
+
+        rb = GameObject.Find("Cube").GetComponent<Rigidbody>();
         rb.useGravity = true;
         rb.mass = 5;
 
-        //GameObject.Find("Sphere").GetComponent<Renderer>().material.color = Color.red;
+
+        //Hide objects with tag hide
 
         //GameObject.FindWithTag("Hide").SetActive(false);
 
         go = GameObject.FindWithTag("Hide");
         go.SetActive(false);
+
+
+        //Destroy objects with destroy tag
 
         obj = GameObject.FindGameObjectsWithTag("Destroy");
         foreach(GameObject newobj in obj)

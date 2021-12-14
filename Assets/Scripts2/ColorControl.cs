@@ -11,8 +11,8 @@ public class ColorControl : MonoBehaviour
         //GetComponent<ScriptsControl>().score = 100;
         //GameObject.Find("Cylinder").GetComponent<ScriptsControl>().score = 90;
 
-        script = GameObject.Find("Cylinder").GetComponent<ScriptsControl>();
-        script.score = 20;
+        script = GameObject.Find("SphereA").GetComponent<ScriptsControl>();
+        script.score = 80;
     }
 
     // Update is called once per frame
